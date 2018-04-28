@@ -22,7 +22,7 @@
     }
 
     function onScroll() {
-        var list = document.querySelectorAll(".sin-anim");
+        var list = document.querySelectorAll("[data-anim]");
 
         for (var i = 0; i < list.length; i++) {
             var el = list[i];
